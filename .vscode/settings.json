@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 15,
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Atom One Dark",
+}

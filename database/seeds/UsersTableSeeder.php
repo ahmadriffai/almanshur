@@ -25,22 +25,11 @@ class UsersTableSeeder extends Seeder
 
         $admin = User::create([
             'name' => 'Admin User',
-            'email' => 'admin@admin',
+            'email' => '10001',
             'password' => Hash::make('password'),
             'santri_id' => 1
         ]);
 
-    
-
-        $user = User::create([
-            'name' => 'User User',
-            'email' => '10002',
-            'password' => Hash::make('password'),
-            'santri_id' => 6
-        ]);
-
         $admin->roles()->attach($adminRole);
-        $user->roles()->attach($userRole);
-
     }
 }
